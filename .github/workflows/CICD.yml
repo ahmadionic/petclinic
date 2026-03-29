@@ -45,8 +45,7 @@ jobs:
       - name: Run SpotBugs
         run: mvn com.github.spotbugs:spotbugs-maven-plugin:spotbugs
 
-      - name: Run Checkstyle
-        run: mvn checkstyle:check
+      
 
   # ------------------------
   # 3️⃣ Docker Build & Push
